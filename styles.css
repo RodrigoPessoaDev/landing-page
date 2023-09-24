@@ -104,6 +104,11 @@ body{
 
 .info p{
     margin: 0;
+    text-wrap: wrap;
+    text-align: center;
+    color: var(--color_quote-text--);
+    font-size: 12px;
+    opacity: 0.7;
 }
 
 .info__image{
@@ -111,4 +116,26 @@ body{
     height: 100px;
     border: 1px solid var(--color_button--);
     border-radius: 10px;
+}
+
+.info{
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 100px 20px 100px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.info__item{
+    width: 100px;
 }
