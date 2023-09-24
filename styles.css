@@ -47,3 +47,15 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+/* Hero */
+
+.image{
+    border: 1px solid blue;
+    width: 400;
+    height: 200;
+}
+
+.hero{
+    display: flex;
+}
