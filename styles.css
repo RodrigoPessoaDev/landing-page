@@ -139,3 +139,30 @@ body{
 .info__item{
     width: 100px;
 }
+
+/* Quote Section */
+
+.quote{
+    background-color: var(--color_quote-section--);
+    display: flex;
+    flex-direction: column;
+    padding: 100px 120px 100px 120px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.quote__text{
+    max-width: 600px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: var(--color_quote-text--);
+    align-self: center;
+    flex-grow: 0;
+}
+
+.quote__author{
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+}
