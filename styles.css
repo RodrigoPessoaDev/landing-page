@@ -52,22 +52,50 @@ body{
 
 .image{
     border: 1px solid blue;
-    width: 400px;
-    height: 200px;
+    
     background-color: grey;
     text-align: center;
     flex-shrink: 0;
+    align-self: stretch;
+    flex-grow: 2;
 }
 
 .hero{
-    padding: 20px;
+    padding: 100px 20px 100px 20px;
     display: flex;
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
     gap: 15px;
-    background-color: yellow;
+    background-color: var(--color_dark-background--);
+}
+
+.hero h1{
+    color: var(--color_hero-main-text--);
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
 }
 
 .hero__description{
+    flex-basis: 40%;
+}
 
+.hero__description p{
+    color: var(--color_hero-secondary-header-link--);
+    font-size: 18px;
+}
+
+.btn__hero a{
+    text-decoration: none;
+    color: var(--color_hero-secondary-header-link--);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn__hero{
+    border: 0;
+    background-color: var(--color_button--);
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 10px;
 }
