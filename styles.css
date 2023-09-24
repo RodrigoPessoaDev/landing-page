@@ -210,3 +210,12 @@ body{
 .call-to-action p{
     margin-top: 0;
 }
+
+/* Footer */
+
+.footer{
+    background-color: var(--color_dark-background--);
+    color: var(--color_hero-main-text--);
+    padding: 30px 50px 30px 50px;
+    text-align: center;
+}
