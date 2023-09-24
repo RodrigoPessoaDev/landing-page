@@ -52,10 +52,22 @@ body{
 
 .image{
     border: 1px solid blue;
-    width: 400;
-    height: 200;
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    text-align: center;
+    flex-shrink: 0;
 }
 
 .hero{
+    padding: 20px;
     display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 15px;
+    background-color: yellow;
+}
+
+.hero__description{
+
 }
