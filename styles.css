@@ -99,3 +99,16 @@ body{
     padding: 10px 30px;
     border-radius: 10px;
 }
+
+/* Information Section */
+
+.info p{
+    margin: 0;
+}
+
+.info__image{
+    width: 100px;
+    height: 100px;
+    border: 1px solid var(--color_button--);
+    border-radius: 10px;
+}
