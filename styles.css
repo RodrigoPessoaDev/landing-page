@@ -1,0 +1,29 @@
+:root{
+
+    --color_dark-background--:#1F2937;
+    --color_hero-main-text--:#F9FAF8;
+    --color_hero-secondary-header-link--:#E5E7EB;
+    --color_header-logo-text--:#F9FAF8;
+    --color_button--:#3882f6;
+    --color_information-header-text--:#1f2937;
+    --color_quote-section--:#e5e7eb;
+    --color_quote-text--:#1f2937;
+}
+
+/* Header */
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header ul{
+    margin: 0;
+    list-style: none;
+}
+
+.header__list{
+    display: flex;
+
+}
